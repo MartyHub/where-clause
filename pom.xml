@@ -32,7 +32,7 @@
 						</goals>
 						<configuration>
 							<processor>com.mysema.query.apt.jpa.JPAAnnotationProcessor</processor>
-							<outputDirectory>target/generated-test-sources/java</outputDirectory>
+							<outputDirectory>${project.build.directory}/generated-test-sources</outputDirectory>
 						</configuration>
 					</execution>
 
@@ -44,10 +44,8 @@
 						<artifactId>querydsl-apt</artifactId>
 						<version>2.8.0</version>
 					</dependency>
-
 				</dependencies>
 			</plugin>
-
 		</plugins>
 	</build>
 
