@@ -35,3 +35,10 @@ Main dependencies
 
 * [parboiled](http://www.parboiled.org) : parsing Java library
 * [Querydsl](http://www.querydsl.com/) : SQL construction framework in Java
+
+Todo
+----
+
+* Currently only `JPAQuery` is supported
+* Find a way to provide auto-completion to user
+* Not sure `Enum` data type is really working, should `String` be converted to `Enum` in JPA parameters ?
